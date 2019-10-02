@@ -7,11 +7,14 @@ how to use tmux with a customized configuration for yourself
  
 ## Common shortcuts and command
 
-   ctrl+a d : detach
-   ctrl+a x  : kill this panel
-   ctrl+a -  : horizontially split windows
-   ctrl+a | : to vertically split windows
-   Alt+arrow/directly click : switch panes
+   + ctrl+a d : detach
+   
+   + ctrl+a x  : kill this panel
+   
+   + ctrl+a -  : horizontially split windows
+   
+   + ctrl+a | : to vertically split windows
+   + Alt+arrow/directly click : switch panes
    
     tmux # To create a new tmux session
     tmux a #To reconnect to last detached session 
