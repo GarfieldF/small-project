@@ -18,6 +18,8 @@ how to use tmux with a customized configuration for yourself
    
     tmux # To create a new tmux session
     tmux a #To reconnect to last detached session 
+    tmux list-sessions # list all sessions
+    tmux attach-session -t $session_name$ # connect arbitary session
 
 
 ## Reference links
