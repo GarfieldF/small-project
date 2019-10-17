@@ -15,6 +15,7 @@ how to use tmux with a customized configuration for yourself
    
    + ctrl+a | : to vertically split windows
    + Alt+arrow/directly click : switch panes
+   + ctrl+a $ :rename session
    
     tmux # To create a new tmux session
     tmux a #To reconnect to last detached session 
