@@ -3,7 +3,11 @@ how to use tmux with a customized configuration for yourself
 
     cat tmux.conf >> ~/.tmux.conf
 
+ press "ctrl+b" and then press ":" ,input "source-file ~/.tmux.conf"
+ 
  Enable mouse control
+ Change the "ctrl+b" into "ctrl+a" which is more comfortable
+ 
  
 ## Common shortcuts and command
 
