@@ -1,39 +1,7 @@
-# Customizing_tmux
-how to use tmux with a customized configuration for yourself
+The repo stores some mini projects and custom configuration of my server.
 
-    cat tmux.conf >> ~/.tmux.conf
+- how to use tmux with a customized configuration.
 
- press "ctrl+b" and then press ":" ,input "source-file ~/.tmux.conf"
- 
- Enable mouse control
- Change the "ctrl+b" into "ctrl+a" which is more comfortable
- 
- 
-## Common shortcuts and command
+- Ngrok (a reverse proxy software) My setting for forwarding the port of SSH and remote desktop 
 
-   + ctrl+a d : detach
-   
-   + ctrl+a x  : kill this panel
-   
-   + ctrl+a -  : horizontially split windows
-   
-   + ctrl+a | : to vertically split windows
-   + Alt+arrow/directly click : switch panes
-   + ctrl+a $ :rename session
-   
-    tmux # To create a new tmux session
-    tmux a #To reconnect to last detached session 
-    
-    tmux list-sessions # list all sessions
-    tmux attach-session -t $session_name$ # connect arbitary session
-    tmux a -t mysession # same as above one
-
-
-## Reference links
-[Making tmux Pretty and Usable - A Guide to Customizing your tmux.conf](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/ "With a Title"). 
-
-[A Quick and Easy Guide to tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
-
-[The Tao of tmux](https://leanpub.com/the-tao-of-tmux/read)
-
-[A tmux Crash Course](https://thoughtbot.com/blog/a-tmux-crash-course)
+- a small version of Transformer
